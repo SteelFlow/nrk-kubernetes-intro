@@ -15,8 +15,14 @@ const education = [
 
 const work = [
     {
+        yearFrom: 2013,
+        yearTo: 2020,
+        place: 'NRK',
+        comment: 'More stuff doings'
+    },
+    {
         yearFrom: 2010,
-        yearTo: 2018,
+        yearTo: 2013,
         place: 'BBC Radio',
         comment: 'Was doing stuff'
     },
@@ -29,8 +35,8 @@ const work = [
 ]
 
 const me = {
-    name: 'Arthur Dent',
-    location: 'Earth'
+    name: 'Ståle Strømme',
+    location: 'Oslo'
 }
 
 module.exports = { me, work, education };
