@@ -16,9 +16,9 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: cdIntroKub/azurecr.io/cvfrontend:7
+        image: crintrokub.azurecr.io/cvfrontend:7
         imagePullPolicy: Always
         ports:
         - containerPort: 8081
       imagePullSecrets:
-      - name: acr-docker-secret
+      - name: acr-docker-secret2

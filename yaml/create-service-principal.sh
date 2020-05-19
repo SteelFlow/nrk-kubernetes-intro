@@ -3,8 +3,8 @@
 # Modify for your environment.
 # ACR_NAME: The name of your Azure Container Registry
 # SERVICE_PRINCIPAL_NAME: Must be unique within your AD tenant
-ACR_NAME=introkubernetes
-SERVICE_PRINCIPAL_NAME=acr-service-principal
+ACR_NAME=crIntroKub
+SERVICE_PRINCIPAL_NAME=crIntroKub-service-principal
 
 # Obtain the full registry ID for subsequent command args
 ACR_REGISTRY_ID=$(az acr show --name $ACR_NAME --query id --output tsv)

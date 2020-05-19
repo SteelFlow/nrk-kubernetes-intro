@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
       - name: backend
-        image: crIntroKub/azurecr.io/cvbackend:8
+        image: crintrokub.azurecr.io/cvbackend:8
         ports:
         - containerPort: 5000
       imagePullSecrets:
-        - name: acr-docker-secret
+        - name: acr-docker-secret2
